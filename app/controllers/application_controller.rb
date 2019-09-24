@@ -17,7 +17,7 @@ class ApplicationController < Sinatra::Base
       redirect '/account'
   end
   redirect '/error'
-
+end
   get '/account' do
     erb :'/account'
   end
